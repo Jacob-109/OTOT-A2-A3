@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: nginx:latest
+          image: otot-a1-nodeserver:latest
           ports:
             - name: http
               containerPort: 80
